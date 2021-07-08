@@ -40,8 +40,8 @@
 			</nav>
 		</div>
 	</header>
-	<main>
-		<div class="startscreen">
+	<main class="main">
+		<section class="startscreen">
 			<div class="startscreen__wrapper wrapper">
 				<div class="startscreen__left">
 					<h1 class="startscreen__title">
@@ -53,16 +53,16 @@
 					</p>
 				</div>
 				<div class="startscreen__right">
-					<img src="#" alt="#">
+					<img src="#" alt="#" class="startscreen__img">
 				</div>
 			</div>
-		</div>
-		<div class="aboutme">
+		</section>
+		<section class="aboutme">
 			<div class="aboutme__wrapper wrapper">
 				<div class="aboutme__left">
-					<h1 class="aboutme__title title">
+					<h2 class="aboutme__title title">
 						Обо мне
-					</h1>
+					</h2>
 					<img src="#" alt="#">
 				</div>
 				<div class="aboutme__right">
@@ -80,20 +80,21 @@
 					</button>
 				</div>
 			</div>
-		</div>
-		<div class="spec">
+		</section>
+		<section class="spec">
 			<div class="spec__wrapper wrapper">
 				<div class="spec__content">
-					<h2 class="spec__title title">
-						Основные специализации
-					</h2>
+					<h2 class="spec__title title" Основные специализации </h2>
 				</div>
 				<div class="spec__information">
-					<ul class="spec__list">
+					<ol class="spec__list">
 						<li class="spec__item spec__item--active">
-							<p class="spec__number">
-								01
-							</p>
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								Увеличение продаж
+							</h5>
 							Увеличение продаж
 							<p class="spec__text">
 								По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект.
@@ -106,44 +107,69 @@
 							</p>
 						</li>
 						<li class="spec__item">
-							<p class="spec__number">
-								02
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								Повышение узнаваемости
+							</h5>
+							<p class="spec__text">
+
 							</p>
-							Повышение узнаваемости
 						</li>
 						<li class="spec__item">
-							<p class="spec__number">
-								03
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								Расширение компании
+							</h5>
+							<p class="spec__text">
+
 							</p>
-							Расширение компании
 						</li>
 						<li class="spec__item">
-							<p class="spec__number">
-								04
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								Что-то еще
+							</h5>
+							<p class="spec__text">
+
 							</p>
-							Что-то еще
 						</li>
 						<li class="spec__item">
-							<p class="spec__number">
-								05
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								И еще что-то
+							</h5>
+							<p class="spec__text">
+
 							</p>
-							И еще что-то
 						</li>
 						<li class="spec__item">
-							<p class="spec__number">
-								06
+							<button class="spec__btn">
+
+							</button>
+							<h5 class="spec__title">
+								И еще одно что-нибудь
+							</h5>
+							<p class="spec__text">
+
 							</p>
-							И еще одно что-нибудь
 						</li>
-					</ul>
+					</ol>
 				</div>
 			</div>
-		</div>
-		<div class="oproject">
+		</section>
+		<section class="oproject">
 			<div class="oproject__left">
-				<h3 class="oproject__title title">
+				<h2 class="oproject__title title">
 					О проекте
-				</h3>
+				</h2>
 				<p class="oproject__text">
 					По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект. Действие точно
 					аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
@@ -166,13 +192,13 @@
 				</button>
 				<img src="#" alt="#">
 			</div>
-		</div>
-		<div class="projects">
+		</section>
+		<section class="projects">
 			<div class="projects__wrapper wrapper">
 				<div class="projects__left">
-					<h4 class="projects__title title">
+					<h2 class="projects__title title">
 						Другие проекты
-					</h4>
+					</h2>
 				</div>
 				<div class="projects__left">
 					<p class="projects__text">
@@ -195,12 +221,12 @@
 					</button>
 				</div>
 			</div>
-		</div>
-		<div class="reviews">
+		</section>
+		<section class="reviews">
 			<div class="reviews__wrapper wrapper">
-				<h1 class="reviews__title title">
+				<h2 class="reviews__title title">
 					Отзывы клиентов
-				</h1>
+				</h2>
 				<div class="video">
 					<video src="#" class="video__large">
 						<button class="video__btn">
@@ -234,13 +260,13 @@
 					</p>
 				</div>
 			</div>
-		</div>
-		<div class="connect">
+		</section>
+		<section class="connect">
 			<div class="connect__wrapper wrapper">
 				<div class="connect__left">
-					<h1 class="connect__title title">
+					<h2 class="connect__title title">
 						Напишите мне
-					</h1>
+					</h2>
 					<p class="connect__text">
 						Проконсультирую по любым вопросам,
 						связанным с масштабированием бизнеса
@@ -266,16 +292,16 @@
 					</ul>
 				</div>
 			</div>
-		</div>
+		</section>
 	</main>
 	<footer class="footer">
 		<div class="footer__wrapper wrapper">
-			<a href="#" class="footer__rights">
+			<p class="footer__rights">
 				2020. Все права защищены
-			</a>
-			<a href="#" class="footer__privacy">
+			</p>
+			<p class="footer__privacy">
 				Политика конфиденциальности
-			</a>
+			</p>
 		</div>
 	</footer>
 </body>
