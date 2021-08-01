@@ -1,0 +1,846 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas-neue/BebasNeueBold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url("../fonts/bebas-neue/BebasNeueRegular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/sfp-pro/SFProDisplay-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url("../fonts/sfp-pro/SFProDisplay-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.aboutme__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 220px;
+}
+.aboutme__title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 170px;
+}
+.aboutme__right {
+  max-width: 615px;
+}
+.aboutme__text {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 56px;
+  margin-top: 0;
+  margin-left: 0;
+  max-width: 615px;
+}
+.aboutme__btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  border: 1px #83c1fa;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  right: 56px;
+  top: 241px;
+}
+.aboutme__link {
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 56px;
+  padding-right: 36px;
+  padding-bottom: 56px;
+  padding-left: 36px;
+  color: #333333;
+  text-decoration: none;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: 1px solid #83C1FA;
+  padding-top: 23px;
+  padding-left: 54px;
+  padding-bottom: 18px;
+  padding-right: 54px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  border-radius: 60px;
+  text-transform: uppercase;
+}
+.connect__wrapper {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 213px;
+}
+.connect__right {
+  position: relative;
+}
+.connect__email-icon {
+  position: absolute;
+  width: 72px;
+  height: 65px;
+  fill: #3C3C3C;
+  top: 5px;
+  left: -15px;
+}
+.connect__facebook-icon {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  fill: #3C3C3C;
+  top: 134px;
+  left: -27px;
+}
+.connect__telegram-icon {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  fill: #3C3C3C;
+  top: 278px;
+  left: -26px;
+}
+.connect__title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+.connect__text {
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  opacity: 0.4;
+  width: 371px;
+  height: 60px;
+  margin-right: 271px;
+}
+.connect__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.connect__email {
+  position: relative;
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.connect__facebook {
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.connect__telegram {
+  font-family: 'Bebas Neue';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.connect__item {
+  position: relative;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 4px;
+  padding-left: 35px;
+}
+.connect__item:hover {
+  border: 1px solid #83C1FA;
+  border-radius: 100%;
+}
+.connect__arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  fill: #4F4F4F;
+  top: 28px;
+  left: 301px;
+}
+.connect__arrow:hover {
+  fill: #83C1FA;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 59px;
+}
+.footer__rights {
+  font-family: 'SF Pro Display';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #A0A0A0;
+  opacity: 0.54;
+}
+.footer__privacy {
+  position: relative;
+  font-family: 'SF Pro Display';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #A0A0A0;
+  text-decoration: none;
+}
+.footer__privacy::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 175px;
+  height: 1px;
+  background-color: #C4C4C4;
+  opacity: 50%;
+  top: 21px;
+}
+.header__switch {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.header__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 27px;
+  margin-bottom: 106px;
+}
+.header__logo {
+  margin-right: 36px;
+}
+.header__switch {
+  margin-right: 158px;
+}
+.header__switch-icon {
+  fill: #FFFFFF;
+}
+.header__switch-icon:hover {
+  fill: #F2C94C;
+}
+.header__btn {
+  margin-left: auto;
+}
+.header__btn:hover {
+  background-color: #83c1fa;
+}
+.moving {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.moving:hover {
+  background-color: #83C1FA;
+}
+.navigation {
+  width: 135px;
+}
+.navigation__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.navigation__item {
+  margin-bottom: 23px;
+  color: #FFFFFF;
+}
+.navigation__link {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.navigation__link:hover {
+  border: 1px solid #83C1FA;
+  border-radius: 110%;
+}
+.oproject__wrapper {
+  position: relative;
+  padding-top: 50px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 220px;
+}
+.oproject__top {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.oproject__title--top {
+  font-family: 'Bebas Neue';
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-shadow: 6px 6px #83C1FA;
+  margin-bottom: 72px;
+}
+.oproject__btn {
+  position: absolute;
+  top: 58px;
+  right: 116px;
+}
+.oproject__button {
+  position: absolute;
+  top: 58px;
+  right: 0px;
+}
+.oproject__bottom {
+  display: flex;
+  justify-content: flex-start;
+}
+.oproject__slide {
+  position: relative;
+  display: flex;
+  margin-right: 132px;
+}
+.oproject__slide::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 190px;
+  height: 0px;
+  background-color: #828282;
+  border: 1px solid #828282;
+  transform: rotate(-45deg);
+  top: 119px;
+  left: 2px;
+}
+.oproject__number {
+  font-family: 'Bebas Neue';
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 144px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+.oproject__ntitle {
+  font-family: 'Bebas Neue';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 155px;
+  margin-left: 63px;
+  color: #4F4F4F;
+}
+.oproject__left {
+  margin-right: 60px;
+}
+.oproject__title--bot {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 64px;
+  margin-right: 141px;
+}
+.oproject__text {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  max-width: 245px;
+  height: 408px;
+  margin-bottom: 50px;
+  margin-right: 60px;
+}
+.oproject__site {
+  position: relative;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-right: 177px;
+}
+.oproject__site:hover {
+  color: #83C1FA;
+}
+.oproject__site::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 90px;
+  height: 1px;
+  background-color: #C4C4C4;
+  opacity: 20%;
+  top: 23px;
+  left: 0;
+}
+.oproject__icon {
+  position: absolute;
+  top: 876px;
+  left: 243px;
+}
+.projects__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C4C4C4;
+  padding-top: 50px;
+  padding-bottom: 220px;
+}
+.projects__title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.projects__left {
+  margin-right: 387px;
+}
+.projects__number {
+  font-family: 'Bebas Neue';
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4F4F4F;
+  margin-left: 538px;
+  margin-bottom: 48px;
+}
+.projects__logo {
+  position: absolute;
+  top: 50px;
+  left: 599px;
+  border: 1px solid #7A7A7A;
+  padding-top: 38px;
+  padding-right: 41px;
+  padding-bottom: 38px;
+  padding-left: 41px;
+}
+.projects__text {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  width: 615px;
+  height: 192px;
+  margin-bottom: 64px;
+  margin-top: 78px;
+}
+.projects__btn--back {
+  margin-right: 31px;
+}
+.reviews__wrapper {
+  position: relative;
+  border-bottom: 1px solid #C4C4C4;
+  padding-top: 50px;
+  padding-bottom: 220px;
+}
+.reviews__title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-bottom: 83px;
+}
+.video {
+  display: flex;
+}
+.video__btn {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  border: 1px #83c1fa;
+  width: 129px;
+  height: 129px;
+  border-radius: 50%;
+  left: 68px;
+  top: 300px;
+  padding-top: 47px;
+  padding-right: 46px;
+  padding-bottom: 46px;
+  padding-left: 36px;
+}
+.video__link {
+  font-family: 'Bebas Neue';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+.video__name {
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.video__name--large {
+  width: 98px;
+  height: 24px;
+  padding-bottom: 4px;
+}
+.video__name--medium {
+  width: 133px;
+  height: 24px;
+  padding-bottom: 4px;
+}
+.video__name--small {
+  width: 96px;
+  height: 24px;
+  padding-bottom: 4px;
+}
+.video__text {
+  font-family: 'SF Pro Display';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+.video__text--large {
+  width: 196px;
+  height: 17px;
+}
+.video__text--medium {
+  width: 194px;
+  height: 17px;
+}
+.video__text--small {
+  width: 59px;
+  height: 17px;
+}
+.video__large {
+  margin-right: 30px;
+}
+.video__medium {
+  margin-top: 118px;
+  margin-right: 30px;
+}
+.video__small {
+  margin-top: 163px;
+}
+.spec__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 220px;
+}
+.spec__title {
+  font-family: 'Bebas Neue';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-right: 268px;
+}
+.spec__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.spec__content {
+  display: flex;
+  align-items: center;
+}
+.spec__item {
+  border-bottom: 0.2px solid #FFFFFF;
+  padding-bottom: 15px;
+  margin-bottom: 24px;
+}
+.spec__content--active {
+  border-bottom: 0.2px solid #FFFFFF;
+  padding-bottom: 15px;
+  margin-bottom: 24px;
+}
+.spec__number {
+  position: relative;
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 24px;
+  color: #4F4F4F;
+}
+.spec__info {
+  font-family: 'SF Pro Display';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.spec__info:active {
+  color: #83C1FA;
+}
+.spec__btn {
+  margin-left: auto;
+  background-color: #3c3c3c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.spec__btn-icon {
+  fill: #FFFFFF;
+}
+.spec__btn-icon:active {
+  fill: #83C1FA;
+}
+.spec__text {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  width: 614px;
+  height: 120px;
+  margin-bottom: 56px;
+}
+.startscreen__wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 220px;
+}
+.main-title__transparent {
+  position: absolute;
+  font-family: 'Bebas Neue';
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: transparent;
+  -webkit-text-stroke: 2px #8e8e8e;
+  top: 98px;
+}
+.main-title__colored {
+  font-family: 'Bebas Neue';
+  font-size: 190px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 190px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  margin-bottom: 68px;
+  top: 271px;
+  max-width: 271px;
+  text-shadow: 5px 5px 1px #83C1FA;
+  color: #FFFFFF;
+  text-shadow: 6px 6px 1px #83C1FA;
+}
+.startscreen__text {
+  padding-top: 502px;
+  padding-left: 280px;
+  color: #FFFFFF;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+}
+.startscreen__text::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 253px;
+  height: 1px;
+  background-color: #FFFFFF;
+  top: 541px;
+  left: 0;
+  background-color: #4f4f4f;
+}
+.startscreen__img {
+  box-shadow: 7px 8px 1px #83C1FA;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: #262626;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

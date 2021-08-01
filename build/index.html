@@ -5,16 +5,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>academy project</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<header class="header">
 		<div class="header__wrapper wrapper">
 			<a href="#" class="header__logo logo">
-				<img src="#" alt="#" class="logo__img">
+				<img src="./img/header_logo.png" alt="logo" width="46" height="19" class="logo__img">
 			</a>
 			<button class="header__switch">
-				logo
+				<svg class="header__switch-icon" width="24" height="24">
+					<use xlink:href="./img/sprite.svg#header__switch"></use>
+				</svg>
 			</button>
 			<nav class="header__navigation navigation">
 				<ul class="navigation__list">
@@ -23,7 +26,7 @@
 							Обо мне
 						</a>
 					</li>
-					<li class="navigation__item navigation__item--active">
+					<li class="navigation__item">
 						<a href="#" class="navigation__link">
 							Мои проекты
 						</a>
@@ -34,26 +37,44 @@
 						</a>
 					</li>
 				</ul>
-				<button class="header__btn btn">
-					Связаться со мной
-				</button>
 			</nav>
+			<button class="header__btn btn">
+				Связаться со мной
+			</button>
 		</div>
 	</header>
 	<main class="main">
 		<section class="startscreen">
 			<div class="startscreen__wrapper wrapper">
 				<div class="startscreen__left">
+
+					<span class="main-title__transparent">
+						Бизнес-
+					</span>
+					<br />
+					<span class="main-title__colored">
+						Консалтинг
+					</span>
+
 					<h1 class="startscreen__title">
 						Бизнес-Консалтинг
 					</h1>
+
 					<p class="startscreen__text text">
 						Консультирую по вопросам
+						<br />
 						масштабирования бизнеса
 					</p>
 				</div>
 				<div class="startscreen__right">
+
+					<picture class="startscreen__picture">
+						<img src="./img/startscreen__img.jpg" srcset="./img/startscreen__img@2x.jpg 2x" alt="picture"
+							width="608" height="569" class="startscreen__img">
+					</picture>
+
 					<img src="#" alt="#" width="608" height="569" class="startscreen__img">
+
 				</div>
 			</div>
 		</section>
@@ -63,7 +84,14 @@
 					<h2 class="aboutme__title title">
 						Обо мне
 					</h2>
+
+					<picture class="aboutme__picture aboutme__picture--left">
+						<img src="./img/aboutme__small.png" srcset="./img/aboutme__small@2x.png 2x" alt="foto"
+							width="288" height="332" class="aboutme__img aboutme__img--left">
+					</picture>
+
 					<img src="#" alt="#" width="286" height="428" class="aboutme__imgsmall aboutme__img--left">
+
 				</div>
 				<div class="aboutme__right">
 					<p class="aboutme__text text">
@@ -74,9 +102,18 @@
 						аннигилирует
 						генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
 					</p>
+
+					<picture class="aboutme__picture aboutme__picture--right">
+						<img src="./img/aboutme__img--right.jpg" srcset="./img/aboutme__img--right@2x.jpg 2x" alt="foto"
+							width="615" height="396" class="aboutme__img aboutme__img--right">
+					</picture>
+
 					<img src="#" alt="#" width="615" height="396" class="aboutme__img aboutme__img--right">
+
 					<button class="aboutme__btn">
-						Смотреть
+						<a href="#" class="aboutme__link">
+							Смотреть
+						</a>
 					</button>
 				</div>
 			</div>
@@ -89,6 +126,23 @@
 					</h2>
 				</div>
 				<div class="spec__information">
+
+					<ul class="spec__list">
+						<li class="spec__item--active">
+							<div class="spec__content spec__content--active">
+								<p class="spec__number">
+									01
+								</p>
+								<h5 class="spec__info ">
+									Увеличение продаж
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+
 					<ol class="spec__list">
 						<li class="spec__item spec__item--active">
 							<div class="spec__content">
@@ -100,6 +154,7 @@
 								</h5>
 							</div>
 							Увеличение продаж
+
 							<p class="spec__text text">
 								По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект.
 								Действие
@@ -112,6 +167,79 @@
 						</li>
 						<li class="spec__item">
 							<div class="spec__content">
+						<p class="spec__number">
+									02
+								</p>
+								<h5 class="spec__info">
+									Повышение узнаваемости
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="spec__item">
+							<div class="spec__content">
+								<p class="spec__number">
+									03
+								</p>
+								<h5 class="spec__info">
+									Расширение компании
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="spec__item">
+							<div class="spec__content">
+								<p class="spec__number">
+									04
+								</p>
+								<h5 class="spec__info">
+									Что-то еще
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="spec__item">
+							<div class="spec__content">
+								<p class="spec__number">
+									05
+								</p>
+								<h5 class="spec__info">
+									И еще что-то
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+						</li>
+						<li class="spec__item">
+							<div class="spec__content spec__content--06">
+								<p class="spec__number">
+									06
+								</p>
+								<h5 class="spec__info">
+									И еще одно что-нибудь
+								</h5>
+								<button class="spec__btn">
+									<svg class="spec__btn-icon" width="30" height="30">
+										<use xlink:href="./img/sprite.svg#spec__btn"></use>
+									</svg>
+								</button>
+							</div>
+
 								<button class="spec__btn">
 
 								</button>
@@ -174,12 +302,66 @@
 							<p class="spec__text">
 
 							</p>
+
 						</li>
-					</ol>
+					</ul>
 				</div>
 			</div>
 		</section>
 		<section class="oproject">
+
+			<div class="oproject__wrapper wrapper">
+				<div class="oproject__top">
+					<span class="oproject__title oproject__title--top">
+						Webnauts
+					</span>
+					<button class="oproject__btn moving">
+						Назад
+					</button>
+					<button class="oproject__button moving">
+						Дальше
+					</button>
+				</div>
+				<div class="oproject__bottom">
+					<div class="oproject__slide">
+						<p class="oproject__number">
+							1
+						</p>
+						<p class="oproject__ntitle">
+							4
+						</p>
+					</div>
+					<div class="oproject__left">
+						<h2 class="oproject__title oproject__title--bot">
+							О проекте
+						</h2>
+						<p class="oproject__text text">
+							По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект.
+							Действие
+							точно
+							аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
+							<br>
+							<br>
+							По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект.
+							Действие
+							точно
+							аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
+						</p>
+						<button class="oproject__icon">
+						</button>
+						<a href="https://webnauts.pro/" class="oproject__site">
+							webnauts.pro
+						</a>
+						<svg class="oproject__icon" width="24" height="24">
+							<use xlink:href="./img/sprite.svg#oproject__icon"></use>
+						</svg>
+					</div>
+					<picture class="oproject__picture">
+						<img src="./img/oproject__img.png" srcset="./img/oproject__img@2x.png 2x" alt="#" width="615"
+							height="671" class="oproject__img">
+					</picture>
+				</div>
+
 			<div class="oproject__left">
 				<h2 class="oproject__title title">
 					О проекте
@@ -205,6 +387,7 @@
 					Дальше
 				</button>
 				<img src="#" alt="#" width="597" height="1105" class="oproject__img">
+
 			</div>
 		</section>
 		<section class="projects">
@@ -214,12 +397,21 @@
 						Другие проекты
 					</h2>
 				</div>
+
+				<div class="projects__right">
+					<p class="projects__number">
+						01
+					</p>
+					<img src="./img/projects__logo.png" width="200" height="36" alt="veeam" class="projects__logo">
+
 				<div class="projects__left">
+
 					<p class="projects__text text">
 						По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект. Действие
 						точно
 						аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
-
+						<br>
+						<br>
 						По их почти единодушному мнению, самоактуализация откровенна. Толпа понимает объект. Действие
 						точно
 						аннигилирует генезис. По их почти единодушному мнению, самоактуализация откровенна. Толпа
@@ -227,7 +419,7 @@
 						объект. Действие точно аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский
 						гомеостаз.
 					</p>
-					<button class="projects__btn moving">
+					<button class="projects__btn projects__btn--back moving">
 						Назад
 					</button>
 					<button class="projects__btn-forth moving">
@@ -242,8 +434,57 @@
 					Отзывы клиентов
 				</h2>
 				<div class="video">
-					<video src="#" class="video__large">
+					<!-- <video src="#" class="video__large"> -->
+					<!-- </video> -->
+					<div class="video__large">
 						<button class="video__btn">
+
+
+							<a href="#" class="video__link">
+								Смотреть
+								отзыв
+							</a>
+						</button>
+						<picture class="video__picture video__picture--large">
+							<img src="./img/video__large.jpg" srcset="./img/video__large@2x.jpg 2x" alt="videoStanSmith"
+								width="615" height="346" class="video__large--big">
+						</picture>
+						<p class="video__name video__name--large">
+							Уилл Смит
+						</p>
+						<p class="video__text video__text--large ">
+							Актер, певец, классный мужик
+						</p>
+					</div>
+					<div class="video__medium">
+						<!-- <video src="#" class="video__medium--med">
+						</video> -->
+						<picture class="video__picture video__picture--medium">
+							<img src="./img/video__medium.jpg" srcset="./img/video__medium@2x.jpg 2x" alt="video Mark"
+								width="292" height="227" class="video__medium--med">
+						</picture>
+						<p class="video__name video__name--medium">
+							Марк Аврелий
+						</p>
+						<p class="video__text video__text--medium">
+							Римский император, философ
+						</p>
+					</div>
+					<div class="video__small">
+						<!-- <video src="#" class="video__small--smal">
+						</video> -->
+						<picture class="video__picture video__picture--small">
+							<img src="./img/video__small.jpg" srcset="./img/video__small@2x.jpg 2x" alt="video Vanya"
+								width="232" height="181" class="video__small--smal">
+						</picture>
+						<p class="video__name video__name--small">
+							Дядя Ваня
+						</p>
+						<p class="video__text video__text--small">
+							Обувщик
+						</p>
+					</div>
+
 							Смотреть
 							отзыв
 						</button>
@@ -272,6 +513,7 @@
 					<p class="video__text text">
 						Обувщик
 					</p>
+
 				</div>
 			</div>
 		</section>
@@ -286,23 +528,46 @@
 						связанным с масштабированием бизнеса
 					</p>
 				</div>
-				<div class="connect__rite">
+				<div class="connect__right">
+					<svg class="connect__email-icon" width="86" height="86">
+						<use xlink:href="./img/sprite.svg#connect__email-icon"></use>
+					</svg>
+					<svg class="connect__facebook-icon" width="86" height="86">
+						<use xlink:href="./img/sprite.svg#connect__facebook-icon"></use>
+					</svg>
+					<svg class="connect__telegram-icon" width="86" height="86">
+						<use xlink:href="./img/sprite.svg#connect__telegram-icon"></use>
+					</svg>
 					<ul class="connect__list">
 						<li class="connect__item">
+
 							<a href="#" class="connect__email">
 								E-mail
 							</a>
+
+							<svg class="connect__arrow" width="43" height="43">
+								<use xlink:href="./img/sprite.svg#connect__arrow"></use>
+							</svg>
+
 						</li>
+
 						<li class="connect__item">
 							<a href="#" class="connect__facebook">
 								Facebook
 							</a>
+							<svg class="connect__arrow" width="43" height="43">
+								<use xlink:href="./img/sprite.svg#connect__arrow"></use>
+							</svg>
 						</li>
 						<li class="connect__item">
 							<a href="#" class="connect__telegram">
 								Telegram
 							</a>
+							<svg class="connect__arrow" width="43" height="43">
+								<use xlink:href="./img/sprite.svg#connect__arrow"></use>
+							</svg>
 						</li>
+
 					</ul>
 				</div>
 			</div>
