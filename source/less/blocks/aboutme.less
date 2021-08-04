@@ -6,6 +6,20 @@
     padding-top: 50px;
     border-bottom: 1px solid #C4C4C4;
     padding-bottom: 220px;
+
+    @media screen and (max-width: @medium) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 255px;
+    }
+
+}
+
+.aboutme__left {
+    @media screen and (max-width: @medium) {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .aboutme__title {
@@ -19,7 +33,22 @@
     color: @white;
     margin-top: 0;
     margin-bottom: 170px;
+
+    @media screen and (max-width: @medium) {
+        margin-bottom: 151px;
+    }
+
 }
+
+.aboutme__img--left {
+    @media screen and (max-width: @medium) {
+        flex-wrap: wrap;
+        width: 135px;
+        height: 158px;
+    }
+}
+
+
 
 .aboutme__right {
     max-width: 615px;
@@ -38,6 +67,20 @@
     margin-top: 0;
     margin-left: 0;
     max-width: 615px;
+
+    @media screen and (max-width: @medium) {
+    font-size: 14px;
+    line-height: 22px;
+    }
+}
+
+.aboutme__img--right {
+
+    @media screen and (max-width: @medium) {
+        width: 345px;
+        height: 232px;
+    }
+
 }
 
 .aboutme__btn {
@@ -50,6 +93,10 @@
     border-radius: 50%;
     right: 56px;
     top: 241px;
+
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
 }
 
 .aboutme__link {

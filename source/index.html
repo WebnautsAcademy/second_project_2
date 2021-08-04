@@ -19,7 +19,17 @@
 					<use xlink:href="./img/sprite.svg#header__switch"></use>
 				</svg>
 			</button>
+			<button class="header__mobicon">
+				<svg class="header__mobicon-btn" width="26" height="15">
+					<use xlink:href="./img/sprite.svg#header__mobile-btn"></use>
+				</svg>
+			</button>
 			<nav class="header__navigation navigation">
+				<button class="navigation__close">
+					<svg class="navigation__close-icon" width="24" height="24">
+						<use xlink:href="./img/sprite.svg#navigation__close-icon"></use>
+					</svg>
+				</button>
 				<ul class="navigation__list">
 					<li class="navigation__item">
 						<a href="#" class="navigation__link">
@@ -31,11 +41,16 @@
 							Мои проекты
 						</a>
 					</li>
-					<li class="navigation__item">
+					<li class="navigation__item navigation__item--last">
 						<a href="#" class="navigation__link">
 							Отзывы
 						</a>
 					</li>
+
+					<button class="navigation__btn btn">
+						Связаться со мной
+					</button>
+
 				</ul>
 			</nav>
 			<button class="header__btn btn">
@@ -250,8 +265,6 @@
 							точно
 							аннигилирует генезис. Самонаблюдение, конечно, притягивает филосовский гомеостаз.
 						</p>
-						<button class="oproject__icon">
-						</button>
 						<a href="https://webnauts.pro/" class="oproject__site">
 							webnauts.pro
 						</a>
@@ -294,7 +307,7 @@
 					<button class="projects__btn projects__btn--back moving">
 						Назад
 					</button>
-					<button class="projects__btn-forth moving">
+					<button class="projects__btn projects__btn-forth moving">
 						Дальше
 					</button>
 				</div>

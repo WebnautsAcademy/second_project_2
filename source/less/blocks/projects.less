@@ -5,6 +5,11 @@
     border-bottom: 1px solid #C4C4C4;
     padding-top: 50px;
     padding-bottom: 220px;
+
+    @media screen and (max-width: @medium) {
+        flex-wrap: wrap;
+        padding-bottom: 110px;
+    }
 }
 
 .projects__title {
@@ -16,6 +21,10 @@
     letter-spacing: 0em;
     text-align: left;
     color:@white;
+
+    @media screen and (max-width: @medium) {
+        width: 195px;
+    }
 }
 
 .projects__left {
@@ -33,6 +42,10 @@
     color: #4F4F4F;
     margin-left: 538px;
     margin-bottom:48px;
+
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
 }
 
 .projects__logo {
@@ -44,6 +57,11 @@
    padding-right: 41px;
    padding-bottom: 38px;
    padding-left: 41px;
+
+   @media screen and (max-width: @medium) {
+    top: 150px;
+    left: 15px;
+   }
 }
 
 .projects__text {
@@ -59,9 +77,21 @@
     height: 192px;
     margin-bottom: 64px;
     margin-top: 78px;
+
+    @media screen and (max-width: @medium) {
+        margin-top: 217px;
+        max-width: 270px;
+        height: auto;
+        margin-bottom: 0;
+    }
 }
 
 .projects__btn--back {
     margin-right: 31px;
 }
 
+.projects__btn {
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
+}

@@ -3,6 +3,12 @@
     border-bottom: 1px solid #C4C4C4;
     padding-top: 50px;
     padding-bottom: 220px;
+
+    @media screen and (max-width: @medium) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 110px;
+    }
 }
 
 .reviews__title {
@@ -15,10 +21,19 @@
     text-align: left;
     color: @white;
     margin-bottom: 83px;
+
+    @media screen and (max-width: @medium) {
+        margin-bottom: 64px;
+    }
+
 }
 
 .video {
     display: flex;
+
+    @media screen and (max-width: @medium) {
+        flex-direction: column;
+    }
 }
 
 .video__btn {
@@ -35,6 +50,10 @@
     padding-right: 46px;
     padding-bottom: 46px;
     padding-left: 36px;
+
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
    
 }
 
@@ -65,6 +84,8 @@
     width: 98px;
     height: 24px;
     padding-bottom: 4px;
+
+
 }
 
 .video__name--medium {
@@ -107,14 +128,47 @@
 
 .video__large {
     margin-right: 30px;
+
+
+    &--big {
+        @media screen and (max-width: @medium) {
+            width: 270px;
+            height: 174px;
+        }
+    }
 }
 
 .video__medium {
     margin-top: 118px;
     margin-right: 30px;
+
+    @media screen and (max-width: @medium) {
+        margin-top: 64px;
+        margin-right: 0;
+    }
+
+    &--med {
+        @media screen and (max-width: @medium) {
+            width: 270px;
+            height: 174px;
+        }
+    }
 }
 
 .video__small {
     margin-top: 163px;
+
+    @media screen and (max-width: @medium) {
+        margin-top: 64px;
+        margin-right: 0;
+    }
+
+    &--smal {
+        @media screen and (max-width: @medium) {
+            width: 270px;
+            height: 174px;
+        }
+    }
 }
+
 

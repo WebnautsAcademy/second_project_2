@@ -1,40 +1,91 @@
 .navigation {
     width: 135px;
-}
 
-.navigation__list {
-    .list-reset;
-}
+    @media screen and (max-width: @medium) {
+        display: none;
+        padding-top: 130px;
+        width: 100%;
+        background: #303030;
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+    }
 
-.navigation__item {
-    margin-bottom: 23px;
-    color: @white;
-}
+    &__list {
+        .list-reset;
+    }
 
-
-
-.navigation__link {
-    font-family: @proDisplayFont;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: @white;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 6px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-
+    &__item {
+        margin-bottom: 23px;
+        color: @white;
     
-    &:hover {
-        border: 1px solid #83C1FA;
-        border-radius: 110%;
+        @media screen and (max-width: @medium) {
+            margin-bottom: 56px;    
+            text-align: center;
+
+            &--last {
+                margin-bottom: 111px;
+            }
+            
         }
+
+    }
+    
+    &__link {
+        font-family: @proDisplayFont;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: @white;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 6px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+    
+        
+        &:hover {
+            border: 1px solid #83C1FA;
+            border-radius: 110%;
+
+            @media screen and (max-width: @medium) {
+            border: none;
+            border-radius: 0;
+            }
+
+            }
+    }
+
+    &__close {
+        display: none;
+
+        @media screen and (max-width: @medium) {
+            position: absolute;
+            top: 24px;
+            right: 15px;
+            .btn-reset;
+            display: block;
+            fill: @white;
+            }
+
+    }
+
 }
+
+.navigation__btn {
+        display: none;
+
+        @media screen and (max-width: @medium) {
+            display: block;
+            margin: auto;
+            }
+    }
+
 
 
 
