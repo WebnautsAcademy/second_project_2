@@ -3,6 +3,11 @@
     padding-top: 50px;
     border-bottom: 1px solid #C4C4C4;
     padding-bottom: 220px;
+
+    @media screen and (max-width: @medium) {
+        flex-wrap: wrap;
+        padding-bottom: 110px;
+    }
 }
 
 .oproject__top {
@@ -22,23 +27,47 @@
     color: @white;
     text-shadow: 6px 6px #83C1FA;
     margin-bottom: 72px;
+
+    @media screen and (max-width: @medium) {
+    font-family: @bebasFont;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 66px;
+    }
+
 }
 
 .oproject__btn {
     position: absolute;
     top: 58px;
     right: 116px;
+
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
 }
 
 .oproject__button {
     position: absolute;
     top: 58px;
     right: 0px;
+
+    @media screen and (max-width: @medium) {
+        display: none;
+    }
 }
 
 .oproject__bottom {
     display: flex;
     justify-content: flex-start;
+
+    @media screen and (max-width: @medium) {
+        flex-direction: column;
+    }
 }
 
 .oproject__slide {
@@ -57,6 +86,15 @@
         transform: rotate(-45deg); 
         top: 119px;
         left: 2px;
+
+        @media screen and (max-width: @medium) {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width: @medium) {
+        display: none;
     }
 }
 
@@ -89,6 +127,12 @@
 
 .oproject__left { 
     margin-right: 60px;
+
+    @media screen and (max-width: @medium){
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
 }
 
 .oproject__title--bot {
@@ -103,6 +147,11 @@
     margin-top: 0;
     margin-bottom: 64px;
     margin-right: 141px;
+
+    @media screen and (max-width: @medium) {
+        margin-bottom: 40px;;
+    }
+
 }
 
 .oproject__text {
@@ -114,10 +163,25 @@
     letter-spacing: 0em;
     text-align: left;
     color: @white;
-    max-width: 245px;
+    width: 245px;
     height: 408px;
     margin-bottom: 50px;
     margin-right: 60px;
+
+    @media screen and (max-width: @medium) {
+        font-family: @proDisplayFont;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 345px;
+        height: 242px;
+        margin-bottom: 32px;
+        margin-right: 0;
+    }
+
 }
 
 .oproject__site {
@@ -132,6 +196,12 @@
     color: @white;
     text-decoration: none;
     margin-right: 177px;
+
+    @media screen and (max-width: @medium){
+        margin-right: 0;
+        margin-bottom: 43px;
+        margin-left: 51px;
+    }
 
     &:hover {
         color: #83C1FA;
@@ -148,13 +218,26 @@
         top: 23px;
         left: 0;
         }
+
+       
+
 }
 
 .oproject__icon {
     position: absolute;
     top: 876px;
     left: 243px;
-    
+
+    @media screen and (max-width: @medium){
+        top: 547px;
+        left: 18px;
+    }
 }
 
+.oproject__img {
 
+    @media (max-width: @medium) {
+        width: 339px;
+        height: 369px;
+    }
+}

@@ -9,15 +9,42 @@
     padding-top: 27px;
     margin-bottom: 106px;
     
+    @media screen and (max-width: @medium) {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 0;
+    }
 }
+
 
 .header__logo {
     margin-right: 36px;
+
+    @media screen and (max-width: @medium) {
+        margin-right: 0;
+        padding-top: 30px;
+    }
 }
 
 .header__switch {
     margin-right: 158px;
+
+    @media screen and (max-width: @medium) {
+        margin-right: 0;
+        padding-top: 28px;
+    }
 }
+
+.header__mobicon {
+    .btn-reset;
+    display: none;
+
+    @media screen and (max-width: @medium) {
+        display: block;
+        padding-top: 31px;
+    }
+}
+
 .header__switch-icon {
     fill: @white;
 }
@@ -29,5 +56,9 @@
 
     &:hover {
         background-color:  rgba(131, 193, 250, 1);
+    }
+
+    @media screen and (max-width: @medium) {
+        display: none;
     }
 }
